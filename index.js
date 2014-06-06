@@ -1,6 +1,5 @@
+#!/usr/bin/env node
 
-var lc = require('./lib/localCheck.js'),
-    dir = '/Users/tkm_ymmt_rebelt/zojirushi_exp/htdocs/syohin/netchu';
+var dir = '/Users/tkm_ymmt_rebelt/zojirushi_exp/htdocs/syohin/netchu';
 
-lc.td_locals(dir);
-lc.sc_locals(dir);
+require('./lib/localCheck.js').run(dir);
