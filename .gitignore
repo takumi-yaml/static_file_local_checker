@@ -4,4 +4,4 @@ coverage
 temp
 
 .DS_Store
-.idea
+.idea/
