@@ -2,7 +2,9 @@
   "name": "localchecker",
   "description": "check local files.",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "async": "^0.9.0"
+  },
   "scripts": {
     "lint": "./node_modules/.bin/jshint .",
     "checkStyle": "./node_modules/.bin/jscs .",
