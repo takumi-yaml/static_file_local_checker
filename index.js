@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-var dir = '/Users/tkm_ymmt_rebelt/zojirushi_exp/htdocs/syohin/netchu';
+var dir ="/Users/tkm_ymmt_rebelt/www/flets-w/hikaritv";
 
-require('./lib/localCheck.js').run(dir);
+require('./lib/localCheck.sync.js').run(dir);
