@@ -1,5 +1,3 @@
 #!/usr/bin/env node
 
-var dir ="/Users/tkm_ymmt_rebelt/www/flets-w/u-next";
-
-require('./lib/localCheck.sync.js').run(dir);
+require('./lib/localCheck.sync.js').run( process.argv[2]);
