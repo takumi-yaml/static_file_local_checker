@@ -3,27 +3,22 @@
   "description": "check local files.",
   "version": "0.0.0",
   "dependencies": {
-    "async": "^0.9.0"
-  },
-  "scripts": {
-    "lint": "./node_modules/.bin/jshint .",
-    "checkStyle": "./node_modules/.bin/jscs .",
-    "pretest": "npm run-script lint && npm run-script checkStyle",
-    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha test",
-    "posttest": "./node_modules/.bin/istanbul check-coverage && rm -rf coverage",
-    "prepublish": "npm test && npm prune"
+    "async": "^0.9.0",
+    "colors": "^0.6.2",
+    "csslint": "^0.10.0",
+    "glob": "^4.0.2",
+    "htmltidy": "0.0.6",
+    "imagesize": "^1.0.0",
+    "jquery": "^2.1.1",
+    "jsdom": "^0.11.0",
+    "jshint": "^2.5.1",
+    "readlines": "0.0.8"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
   },
   "author": "takumi.y <takumi.yamaoto@rebelt.co.jp>",
   "license": "ISC",
-  "devDependencies": {
-    "mocha": "^1.18.2",
-    "istanbul": "^0.2.7",
-    "jshint": "^2.5.0",
-    "jscs": "^1.4.5"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:tkm-ymmt/localchecker.git"
