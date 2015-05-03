@@ -17,7 +17,7 @@
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
   },
-  "author": "takumi.y <takumi.yamaoto@rebelt.co.jp>",
+  "author": "takumi.y",
   "license": "ISC",
   "repository": {
     "type": "git",
